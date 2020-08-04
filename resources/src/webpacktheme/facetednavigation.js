@@ -2,7 +2,7 @@ import "ajaxfileupload";
 
 import "++view++collective.js.jqueryui.custom.min.js"; // is a view at Plone root
 
-import "imports-loader?jQuery=jquery!bbq";
+import "imports-loader?jQuery=jquery!imports-loader?this=>window!bbq";
 import "imports-loader?jQuery=jquery!jstree";
 import "imports-loader?jQuery=jquery!select2uislider";
 import "imports-loader?jQuery=jquery!tagcloud";
