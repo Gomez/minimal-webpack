@@ -3,7 +3,7 @@ Minimal setup for Plone 5.2.2 with Mosaic & facetednavigation and webpack
 # Install
 
     $ python3.7 -m venv .
-    $ ./bin/pip install -r https://dist.plone.org/release/5.2.2/requirements.txt
+    $ ./bin/pip install -r https://dist.plone.org/release/5.2.4/requirements.txt
     $ ./bin/buildout
     $ ./bin/instance fg
     $ cd resources && npm install && npm run-script watch
